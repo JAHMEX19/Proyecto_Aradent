@@ -17,7 +17,8 @@ body {
 
     overflow: auto;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
 
     display: none;
 }
@@ -27,7 +28,7 @@ header {
     width: 100%;
     height: auto;
     min-height: 120px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.822);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -88,7 +89,7 @@ main {
     padding-top: 125px;
     width: 100%;
     height: auto;
-    
+
 
 }
 
@@ -99,7 +100,7 @@ main {
     margin: 50px auto 0;
     overflow: hidden;
     border-radius: 15px;
-  
+
 }
 
 .slider-frame ul {
@@ -158,64 +159,65 @@ main {
     }
 }
 
-.info{
+.info {
 
-width: 100%;
-height: 700px;
-text-align: center;
+    width: 100%;
+    height: 700px;
+    text-align: center;
 
-background-color:#1ed5c3;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-margin: 30px auto;
+    background-color: #1ed5c3a1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
 }
 
-.info h2{
-font-size: 2rem;
-color:rgb(255, 255, 255) ;
-margin: 5px auto;
+.info h2 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin: 5px auto;
 
 
 
 }
 
-.info p{
+.info p {
 
     width: 100%;
     font-size: 1.5rem;
-    
-    color:rgb(255, 255, 255) ;
+
+    color: rgb(255, 255, 255);
     margin: 10px auto;
-    padding: 0 20px;
-    font-weight: 800;
+    padding: 0 60px;
+    font-weight: 700;
 
 }
+
 .button {
 
-   width: auto;
-   height: auto;
-   margin: 2px 0;
-   padding: 10px 15px;
-   border:none;
-   border-radius: 25px;
-   color: rgb(244 148 190);
-   background: white;
-   font-size: 1rem;
-   font-weight: 500;
-   cursor: pointer;
-   
+    width: auto;
+    height: auto;
+    margin: 2px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(244 148 190);
+    background: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+
 }
 
 .button:hover {
 
-   color:  white;
-   background:rgb(244 148 190);
-    
- }
+    color: white;
+    background: rgb(244 148 190);
 
- .ubicacion{
+}
+
+.ubicacion {
     width: 90%;
     height: 700px;
     display: flex;
@@ -223,61 +225,110 @@ margin: 5px auto;
     align-items: center;
 
 
- }
- .info-ubi{
+}
+
+.info-ubi {
 
     width: 800px;
     text-align: center;
     margin: 0 50px;
 
-   
- }
- .info-ubi img{
+
+}
+
+.info-ubi img {
 
     width: 200px;
     cursor: pointer;
-    animation: move 1s infinite alternate ease-in-out ;
+    animation: move 1s infinite alternate ease-in-out;
     position: relative;
     margin-bottom: 20px;
 
 
- }
+}
 
- @keyframes move {
+@keyframes move {
 
-  from {top: 0px;}
-  to {top: 20px;}
- 
+    from {
+        top: 0px;
+    }
 
- }
+    to {
+        top: 20px;
+    }
 
- .info-ubi h2{
- 
-    color:#1ed5c3;
-    
+
+}
+
+.info-ubi h2 {
+
+    color: #1ed5c3;
+
     font-size: 1.5rem;
     font-weight: 600;
     margin: 0 0 15px 0;
 
- }
+}
 
-.info-ubi p{
-   
+.info-ubi p {
+
     color: rgb(244 148 190);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
 
- }
+}
 
 
 
 footer {
     width: 100%;
     height: 120px;
-    background-color: rgb(35, 182, 108);
-    
+    background-color: rgb(244 148 190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+footer .social-media {
+
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-right: 50px;
+}
+
+footer .social-media img {
+
+    width: 30px;
+
+}
+
+footer .social-media h2 {
+
+    color: #ffffff;
+
+
 }
 
 
+address {
+    font-size: .7rem;
+    color: #ffffff;
+    width: auto;
 
+    margin-left: 50px;
+
+}
+
+address a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #1ed5c3;
+    align-self: flex-start;
+
+
+}
