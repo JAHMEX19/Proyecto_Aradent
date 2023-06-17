@@ -54,6 +54,11 @@ nav {
 
 }
 
+nav  a{
+    text-decoration: none;
+}
+
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
