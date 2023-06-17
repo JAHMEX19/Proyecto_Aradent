@@ -91,7 +91,7 @@ nav li:hover {
 }
 
 main {
-    padding-top: 125px;
+    padding-top: 150px;
     width: 100%;
     height: auto;
 
@@ -368,147 +368,148 @@ address a {
         margin: 0 2px
     }
 
-}
 
 
-nav li {
 
+    nav li {
 
-    font-size: .8rem;
-    padding: 2px 10px;
 
-}
+        font-size: .8rem;
+        padding: 2px 10px;
 
+    }
 
 
-nav li:hover {
 
-    color: rgb(250, 250, 250);
-    background-color: rgb(244 148 190);
+    nav li:hover {
 
+        color: rgb(250, 250, 250);
+        background-color: rgb(244 148 190);
 
-}
 
-main {
-    padding: 2px;
-    width: 100%;
-    height: auto;
+    }
 
+    main {
+        padding: 2px;
+        width: 100%;
+        height: auto;
 
-}
 
-.info {
+    }
 
+    .info {
 
-    height: 500px;
-    margin: 20px auto;
-    padding: 50px 0 20px 0;
-}
 
-.info h2 {
-    font-size: .9rem;
-    margin: 2px auto;
-    padding: 0;
+        height: 500px;
+        margin: 20px auto;
+        padding: 50px 0 20px 0;
+    }
 
-}
+    .info h2 {
+        font-size: .9rem;
+        margin: 2px auto;
+        padding: 0;
 
-.info p {
+    }
 
-    font-size: .8rem;
-    margin: 2px auto;
-    padding: 0;
-}
+    .info p {
 
-.button {
+        font-size: .8rem;
+        margin: 2px auto;
+        padding: 0;
+    }
 
+    .button {
 
-    font-size: .8rem;
 
+        font-size: .8rem;
 
-}
 
+    }
 
 
-.ubicacion {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
 
+    .ubicacion {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
 
-}
 
-.info-ubi {
+    }
 
-    width: 100%;
-    text-align: center;
-    margin: 0 50px;
+    .info-ubi {
 
+        width: 100%;
+        text-align: center;
+        margin: 0 50px;
 
-}
 
-.info-ubi img {
+    }
 
-    width: 100px;
+    .info-ubi img {
 
+        width: 100px;
 
 
 
-}
 
+    }
 
 
-.info-ubi h2 {
 
-    font-size: 1rem;
-    margin: 15px 0 15px 0;
+    .info-ubi h2 {
 
-}
+        font-size: 1rem;
+        margin: 15px 0 15px 0;
 
-.info-ubi p {
+    }
 
+    .info-ubi p {
 
-    font-size: .8rem;
 
+        font-size: .8rem;
 
-}
 
-#map {
+    }
 
-    width: 300px;
-    height: 225px;
+    #map {
 
-}
+        width: 300px;
+        height: 225px;
 
-footer .social-media {
+    }
 
-    width: 180px;
-    margin-right: 20px;
-}
+    footer .social-media {
 
-footer .social-media img {
+        width: 180px;
+        margin-right: 20px;
+    }
 
-    width: 20px;
+    footer .social-media img {
 
-}
+        width: 20px;
 
-footer .social-media h2 {
+    }
 
-    color: #ffffff;
-    font-size: .6rem;
+    footer .social-media h2 {
 
-}
+        color: #ffffff;
+        font-size: .6rem;
 
+    }
 
-address {
-    font-size: .5rem;
-    margin-left: 10px;
 
-}
+    address {
+        font-size: .5rem;
+        margin-left: 10px;
 
-address a {
-    font-size: .8rem;
+    }
 
+    address a {
+        font-size: .8rem;
+
+    }
 }
